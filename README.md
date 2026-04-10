@@ -13,7 +13,7 @@ The flaw exists in `application/install/controller/Index.php`. The `step5()` fun
 
 While the software creates a lock file at the end of the installation process, the lack of an entry-level verification allows an attacker to re-trigger the logic at any time via a crafted POST request.
 
-![image-20260410135809726](.\assets\code.png)
+![image-20260410135809726](./assets/code.png)
 
 > *Figure 1: Missing installation lock check in step5 function.*
 
