@@ -26,7 +26,7 @@ While the software creates a lock file at the end of the installation process, t
 
 ### HTTP Request (Raw):
 ```http
-POST /index.php?s=install/index/index&step=5 HTTP/1.1
+POST /admin.php?s=install/index/index&step=5 HTTP/1.1
 Host: localhost:8080
 Content-Type: application/x-www-form-urlencoded
 Connection: close
